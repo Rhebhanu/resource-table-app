@@ -15,8 +15,6 @@ A modern Next.js application that displays EHR (Electronic Health Record) resour
 - **Global Search**: Search across all resource data
 - **Advanced Filtering**: Filter by status, resource type, and FHIR version
 - **Smart Pagination**: Configurable page sizes with navigation controls
-- **TypeScript**: Fully typed for better development experience
-- **Accessibility**: Keyboard navigation and screen reader support
 
 ## Tech Stack
 
@@ -62,12 +60,12 @@ Make sure you have Node.js installed on your system.
 ### 📋 Table Columns
 
 1. **Resource Key**: Unique identifier with blue highlighting
-2. **Patient ID**: Patient identifier (simple formatting)
+2. **Patient ID**: Patient identifier
 3. **Resource Type**: Type of EHR resource (Patient, Observation, etc.)
 4. **Status**: Processing state with color-coded badges
-5. **FHIR Version**: FHIR specification version (simple formatting)
+5. **FHIR Version**: FHIR specification version 
 6. **Created**: Creation date
-7. **Summary**: Human-readable description
+7. **Summary**: Description
 
 ### 🔍 Interactive Features
 
